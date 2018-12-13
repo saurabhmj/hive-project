@@ -1,3 +1,13 @@
+## System Configuration
+
+The azure b44ms instance has the following configuration:
+
+| Hardware | Configuration                                 |
+|---------------|--------------------------------------------------|
+| vCPUs      | 4   |
+| RAM      | 16 GB  |
+| Disk      | 32 GB SSD   |
+
 ## Queries for creating hive tables:
 
 1. flight_data_denorm:
