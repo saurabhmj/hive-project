@@ -60,6 +60,8 @@ LOCATION '/user/root/flight_data/carriers' tblproperties ("skip.header.line.coun
 
 ## Summary of query results:
 
+**(Since we were running short on the Azure credits, we have used data only for month=3)**
+
 | Query | Result                                 |
 |---------------|--------------------------------------------------|
 | Which airport name has the highest average departure delay?      | North Bend/Coos Bay, OR: Southwest Oregon Regional   |
