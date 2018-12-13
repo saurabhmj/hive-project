@@ -1,8 +1,3 @@
-# All of the queries output 5 rows in sorted order. This is done for verifying the output and can be changed with limiting the results to output only a single column
-
-
-
-
 ## Queries for creating hive tables:
 
 1. flight_data_denorm:
@@ -46,6 +41,10 @@ WITH SERDE PROPERTIES ( "input.regex" = '\\"(.+)\\",\\"(.+)\\"' )
 LOCATION '/user/root/flight_data/airports' tblproperties ("skip.header.line.count"="1");
 ```
 
+
+
+
+
 3. carrier lookup
 
 ```sql
@@ -59,4 +58,11 @@ LOCATION '/user/root/flight_data/carriers' tblproperties ("skip.header.line.coun
 
 
 
+## Summary of query results:
+
+| Query | Result                                 |
+|---------------|--------------------------------------------------|
+| Which airport name has the highest average departure delay?      | North Bend/Coos Bay, OR: Southwest Oregon Regional   |
+| Which carrier name had the highest sum of arrival delays on 3/14/2016?      | SkyWest Airlines Inc. (2003 - )| 
+  
   
